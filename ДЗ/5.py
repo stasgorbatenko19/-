@@ -2,15 +2,15 @@ x = float(input())
 y = float(input())
 if y == 0:
     print("Точка лежит на оси абсцисс")
-if x == 0:
+elif x == 0:
     print("Точка лежит на оси ординат")
-if x > 0 and y > 0:
+elif x > 0 and y > 0:
     print("Точка лежит в первой четверти")
-if x < 0 and y > 0:
+elif x < 0 and y > 0:
     print("Точка лежит во второй четверти")
-if x < 0 and y < 0:
+elif x < 0 and y < 0:
     print("Точка лежит в третьей четверти")
-if x > 0 and y < 0:
+elif x > 0 and y < 0:
     print("Точка лежит в четвёртой четверти")
 else:
     print("Точка лежит в начале координат")
