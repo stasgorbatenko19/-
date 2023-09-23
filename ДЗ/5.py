@@ -1,5 +1,5 @@
-x = int(input())
-y = int(input())
+x = float(input())
+y = float(input())
 if y == 0:
     print("Точка лежит на оси абсцисс")
 if x == 0:
