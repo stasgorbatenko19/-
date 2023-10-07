@@ -4,5 +4,5 @@ while True:
     x.append(n)
     if not n:
         break
-x.sort(reverse = True)
+x.sort(reverse=True)
 print(''.join(x))
